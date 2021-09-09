@@ -9,11 +9,28 @@
 </head>
 <body>
   <header class="header">
-    <img src="../img/logo-lez-video.png" alt="logo-lez-video">
+    <img class="header__img" src="../img/logo-lez-video.png" alt="logo-lez-video">
   </header>
-  <main>
-    <section></section>
+  <main class="login">
+    <section class="login__container">
+      <h2>Regístrate</h2>
+      <form class="login__container--form" action="">
+        <input class="input" type="text" placeholder="Nombre">
+        <input class="input" type="text" placeholder="Correo">
+        <input class="input" type="password" placeholder="Contraseña">
+        <button class="button">Crear cuenta</button>
+      </form>
+      <section class="login__container--social-media">
+        <div><img src="../img/logo-google.png" alt="logo-google">Registrarme con google</div>
+        <div><img src="../img/logo-twitter.png" alt="logo-twitter">Registrarme con twitter</div>
+      </section>
+      <p class="login__container--register">¿Ya estás registrado? <a href="">Iniciar sesión</a></p>
+    </section>
   </main>
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <a href="">Términos de uso</a>
+    <a href="">Declaración de privacidad</a>
+    <a href="">Centro de ayuda</a>
+  </footer>
 </body>
 </html>
