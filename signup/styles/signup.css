@@ -123,6 +123,7 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
+
 @media only screen and  (max-width: 600px) {
   .login__container {
     background-color: transparent;
