@@ -106,6 +106,9 @@ body {
   letter-spacing: 1px;
   margin: 10px 0px;
 }
+.button:hover {
+  background-color: #7cdddd;
+}
 .footer {
   background-color: #AB88FF;
   display: flex;
