@@ -93,10 +93,18 @@ body {
   margin-top: 10px;
 }
 .carousel {
-  overflow: scroll;
   padding-left: 30px;
   position: relative;
   width: 100%;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.carousel::-webkit-scrollbar {
+  background-color: #13b1b1;
+  height: 4px;
+}
+.carousel::-webkit-scrollbar-thumb {
+  background-color: #085d5d;
 }
 .carousel__container {
   white-space: nowrap;
